@@ -1,0 +1,64 @@
+users:
+  seyi@aol.com:
+    username: seyi@aol.com
+    articleIds:
+      - 1
+    commentIds:
+      - 1
+  me@me.com:
+    username: me@me.com
+    articleIds:
+      - 2
+    commentIds:
+      []
+  ami:
+    username: ami
+    articleIds:
+      []
+    commentIds:
+      []
+articles:
+  "1":
+    id: 1
+    title: new government
+    url: www.aol.com/newgovernment
+    username: seyi@aol.com
+    commentIds:
+      - 1
+    upvotedBy:
+      - seyi@aol.com
+      - me@me.com
+    downvotedBy:
+      []
+    comments:
+      - id: 1
+        body: yes i like it
+        username: seyi@aol.com
+        articleId: 1
+        upvotedBy:
+          []
+        downvotedBy:
+          []
+  "2":
+    id: 2
+    title: me.com
+    url: me.com
+    username: me@me.com
+    commentIds:
+      []
+    upvotedBy:
+      - seyi@aol.com
+    downvotedBy:
+      []
+nextArticleId: 3
+comments:
+  "1":
+    id: 1
+    body: yes i like it
+    username: seyi@aol.com
+    articleId: 1
+    upvotedBy:
+      []
+    downvotedBy:
+      []
+nextCommentId: 2
